@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+    min-height: 30vw;
+    margin:0px;
+    padding: 0px;
+    background-image: url('img/purple.jpg');
+    background-size: cover;
+    color: #4E4E7D;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top:2%;
+    margin-bottom: 5%;
+    background-color: rgba(227, 227, 231, 0.32);
+    text-align: center;
+}
+
+.main-section{
+    width: 100%;
+
+}
+.buttons-section{
+    width: 80%;
+    margin-left: 10%;
+   
+}
+.buttons-section-borders{
+    width: 90%;
+    
+    position: relative;
+    
+}
+.button{
+    width: 18vw;
+    height: 18vw;
+    margin-left: 7vw;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(218, 112, 214, 0.288);
+    z-index: 100;
+    margin-bottom: 15%;
+}
+.button-border{
+    width: 30%;
+    z-index: -1;
+    float: left;
+    text-align: center;
+    position: relative;
+    top:0;
+    left:0;
+}
+.button-border img{
+    position: absolute;
+    width: 27vw;
+    height: 27vw;
+    top:-4.5vw;
+    left:12.5vw;
+    visibility: hidden;
+    
+}
+.button:hover{
+    cursor: pointer;
+}
+.button h3{
+    padding-top: 6vw;
+}
+#circle2{
+    margin-left:27vw;
+    left: 10.5vw;
+}
+#circle3{
+    margin-left:54vw;
+    left:8.5vw
+}
